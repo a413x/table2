@@ -1,3 +1,5 @@
+import {Total} from './Total.js'
+
 export const colNames = [
   {name: 'number', title: 'Номер'},
   {name: 'date', title: 'Дата и время'},
@@ -6,7 +8,7 @@ export const colNames = [
   {name: 'daysleft', title: 'Дней до сделки'}
 ]
 
-export function TableHead() {
+export function TableHead({data}) {
   return (
     <thead>
       <tr>
@@ -16,6 +18,7 @@ export function TableHead() {
           </th>
         )}
       </tr>
+      <Total data = {data} />
     </thead>
   );
 }

@@ -4,7 +4,7 @@ import '../styles/Table.css';
 export function Table({ data }) {
   return (
     <table className = 'table'>
-      <TableHead />
+      <TableHead data = {data}/>
       <tbody>
         {data.map((dataObj, ind) =>
           <tr key = {'tr-' + ind}>
