@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import json from './__mock_data__/data.js'
 import {useState, useEffect} from 'react'
 

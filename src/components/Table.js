@@ -1,4 +1,5 @@
 import {TableHead, colNames} from './TableHead.js'
+import '../styles/Table.css';
 
 export function Table({ data }) {
   return (
