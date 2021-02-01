@@ -2,6 +2,8 @@ import './App.css';
 import json from './__mock_data__/data.js'
 import {useState, useEffect} from 'react'
 
+import {Table} from './components/Table.js'
+
 const parsedData = JSON.parse(json);
 
 function App() {
@@ -11,7 +13,8 @@ function App() {
   })
 
   return (
-    <div className="App">
+    <div className = 'container'>
+      <Table data = {data} />
     </div>
   );
 }
