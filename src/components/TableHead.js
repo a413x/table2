@@ -6,9 +6,9 @@ import Arrow from '../icons/arrow.svg'
 export const colNames = [
   {name: 'number', title: 'Номер'},
   {name: 'date', title: 'Дата и время'},
-  {name: 'proceeds', title:'Выручка'},
-  {name: 'profit', title: 'Прибыль'},
-  {name: 'daysleft', title: 'Дней до сделки'}
+  {name: 'proceeds', title:'Выручка', func: 'sum'},
+  {name: 'profit', title: 'Прибыль', func: 'sum'},
+  {name: 'daysleft', title: 'Дней до сделки', func: 'aver'}
 ]
 
 export function TableHead({data, sortCallback}) {

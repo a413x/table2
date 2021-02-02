@@ -40,3 +40,15 @@ export function convertDate(dateStr){
   return days[day] + '. ' + dayInMonth + ' ' + months[month] + ' ' + year + ', '
           + date.toLocaleTimeString('ru-RU')
 }
+
+export function formatDaysLeft(value){
+  const daysLeft = Math.floor(value) + ''
+  const lastnum = daysLeft[daysLeft.length-1];
+  if(daysLeft === 1 || lastnum === 1){
+    return value + ' день';
+  }else if(lastnum > 1 && lastnum < 5 && (daysLeft < 10 || daysLeft > 10)){
+    return value + ' дня';
+  }else {
+    return value + ' дней';
+  }
+}
