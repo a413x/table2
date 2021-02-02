@@ -5,10 +5,12 @@ import Arrow from '../icons/arrow.svg'
 
 export const colNames = [
   {name: 'number', title: 'Номер'},
+  {name: '_id', title: "ID"},
   {name: 'date', title: 'Дата и время'},
   {name: 'proceeds', title:'Выручка', func: 'sum'},
   {name: 'profit', title: 'Прибыль', func: 'sum'},
-  {name: 'daysleft', title: 'Дней до сделки', func: 'aver'}
+  {name: 'daysleft', title: 'Дней до сделки', func: 'aver'},
+  {name: 'sessions', title: 'Сессий в цепочке', func: 'aver'}
 ]
 
 export function TableHead({data, sortCallback}) {
