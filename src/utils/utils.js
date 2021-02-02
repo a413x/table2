@@ -42,13 +42,10 @@ export function convertDate(dateStr){
 }
 
 export function formatDaysLeft(value){
-  const daysLeft = Math.floor(value) + ''
-  const lastnum = daysLeft[daysLeft.length-1];
-  if(daysLeft === 1 || lastnum === 1){
-    return value + ' день';
-  }else if(lastnum > 1 && lastnum < 5 && (daysLeft < 10 || daysLeft > 10)){
-    return value + ' дня';
-  }else {
-    return value + ' дней';
-  }
+  const words = ['день', 'дня', 'дней']
+  const word = words[
+    (value % 100 > 4 && value % 100 < 20) ?
+      2 : [2, 0, 1, 1, 1, 2][(value % 10 < 5) ? value % 10 : 5]
+  ]
+  return value + ' ' + word
 }

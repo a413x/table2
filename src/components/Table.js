@@ -1,5 +1,5 @@
 import {TableHead, colNames} from './TableHead.js'
-import {convertDate} from '../utils/utils.js'
+import {convertDate, formatDaysLeft} from '../utils/utils.js'
 import '../styles/Table.css';
 
 export function Table({ data, dataToShow, sortCallback }) {
@@ -7,6 +7,8 @@ export function Table({ data, dataToShow, sortCallback }) {
     const value = data[col.name]
     if(col.name === 'date') {
       return convertDate(value)
+    }else if(col.name === 'daysleft'){
+      return formatDaysLeft(value)
     }else {
       return value
     }
