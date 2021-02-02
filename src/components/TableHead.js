@@ -1,5 +1,7 @@
 import {useState} from 'react'
 import {Total} from './Total.js'
+import '../styles/TableHead.css';
+import Arrow from '../icons/arrow.svg'
 
 export const colNames = [
   {name: 'number', title: 'Номер'},
@@ -30,9 +32,10 @@ export function TableHead({data, sortCallback}) {
           <th key = {'th-'+ind} onClick = {() => onClick(col)}>
             {col.title}
             {activeCol.name === col.name &&
-              <span className = 'sorted'>
-                {activeCol.order === 'asc' ? '↓' : '↑'}
-              </span>
+              <img src = {Arrow}
+                alt = 'arrow'
+                className = {activeCol.order === 'asc' ? 'sorted-asc' : ''}
+              />
             }
           </th>
         )}
