@@ -26,3 +26,17 @@ export function sortData(data, colName, order){
   })
   return sortedData
 }
+
+export function convertDate(dateStr){
+  const days = [ 'Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб']
+  const months = ['января', 'февраля', 'марта', 'апреля',
+                  'мая', 'июня', 'июля', 'августа', 'сентября',
+                  'октября', 'ноября', 'декабря']
+  const date = new Date(dateStr)
+  const day = date.getDay()
+  const dayInMonth = date.getDate()
+  const month = date.getMonth()
+  const year = date.getFullYear()
+  return days[day] + '. ' + dayInMonth + ' ' + months[month] + ' ' + year + ', '
+          + date.toLocaleTimeString('ru-RU')
+}

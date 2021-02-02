@@ -1,7 +1,17 @@
 import {TableHead, colNames} from './TableHead.js'
+import {convertDate} from '../utils/utils.js'
 import '../styles/Table.css';
 
 export function Table({ data, sortCallback }) {
+  const handleData = (data, col) => {
+    const value = data[col.name]
+    if(col.name === 'date') {
+      return convertDate(value)
+    }else {
+      return value
+    }
+  }
+
   return (
     <div className = 'table-container'>
       <table className = 'table'>
@@ -11,7 +21,7 @@ export function Table({ data, sortCallback }) {
             <tr key = {'tr-' + dataObj._id}>
               {colNames.map((colObj, ind) =>
                 <td key = {ind}>
-                  { dataObj[colObj.name] }
+                  {handleData(dataObj, colObj)}
                 </td>
               )}
             </tr>
