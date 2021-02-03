@@ -1,0 +1,8 @@
+.table-link img{
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.table-link a{
+  color: #2B6893;
+  cursor: pointer;
+}
