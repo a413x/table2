@@ -29,7 +29,7 @@ export function TableHead({data, sortCallback}) {
 
   return (
     <thead>
-      <tr>
+      <tr className = 'table-head'>
         {colNames.map((col, ind) =>
           <th key = {'th-'+ind} onClick = {() => onClick(col)}>
             {col.title}

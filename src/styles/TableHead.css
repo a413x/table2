@@ -1,3 +1,6 @@
 .sorted-asc{
   transform: rotate(180deg)
 }
+thead img{
+  margin-left: 3px;
+}

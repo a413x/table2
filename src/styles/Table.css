@@ -1,7 +1,7 @@
 .table-container{
-  margin-top: 20px;
-  max-width: 900px;
-  max-height: 635px;
+  margin: 0 15px;
+  max-width: 1170px;
+  max-height: 508px;
   overflow: scroll;
   border: 1px solid #D5D5D5;
   border-radius: 3px;
@@ -11,8 +11,8 @@ table{
 }
 td, th{
   padding-left: 20px;
-  min-width: 210px;
-  height: 50px;
+  min-width: 198px;
+  height: 40px;
   text-align: left;
   border-bottom: 1px solid #D5D5D5;
   background: white;
@@ -22,9 +22,17 @@ thead th{
   top: 0;
   user-select: none;
 }
+.table-head th{
+  height: 55px;
+}
 .total th{
   background: #FEF7EB;
-  top: 53px; /*second sticky top*/
+  font-weight: normal;
+  top: 58px; /*second sticky top*/
+  user-select: text;
+}
+.total th:first-child{
+  font-weight: bold;
 }
 
 th, tbody td:first-child{

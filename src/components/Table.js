@@ -1,6 +1,7 @@
 import {TableHead, colNames} from './TableHead.js'
 import {convertDate, formatDaysLeft} from '../utils/utils.js'
 import '../styles/Table.css';
+import '../styles/Scrollbars.css';
 
 export function Table({ data, dataToShow, sortCallback }) {
   const handleData = (data, col) => {
