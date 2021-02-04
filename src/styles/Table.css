@@ -17,20 +17,6 @@ td, th{
   border-bottom: 1px solid #D5D5D5;
   background: white;
 }
-thead th{
-  background: #FAFAFA;
-  top: 0;
-  user-select: none;
-}
-.table-head th{
-  height: 55px;
-}
-.total th{
-  background: #FEF7EB;
-  font-weight: normal;
-  top: 58px; /*second sticky top*/
-  user-select: text;
-}
 .total th:first-child{
   font-weight: bold;
 }

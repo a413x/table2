@@ -4,3 +4,17 @@
 thead img{
   margin-left: 3px;
 }
+thead th{
+  background: #FAFAFA;
+  top: 0;
+  user-select: none;
+}
+.table-head th{
+  height: 55px;
+}
+.total th{
+  background: #FEF7EB;
+  font-weight: normal;
+  top: 58px; /*second sticky top*/
+  user-select: text;
+}
