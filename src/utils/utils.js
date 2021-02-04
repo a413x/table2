@@ -49,3 +49,15 @@ export function formatDaysLeft(value){
   ]
   return value + ' ' + word
 }
+
+export function attachScroll(){
+  const firstColBody = document.querySelector('.first-col'),
+    tableBody = document.querySelector('.table-body'),
+    tableHead = document.querySelector('.table-head')
+
+  tableBody.addEventListener('scroll', (e) => {
+    const target = e.target
+    firstColBody.scrollTop = target.scrollTop
+    tableHead.scrollLeft = target.scrollLeft
+  });
+}

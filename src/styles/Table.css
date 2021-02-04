@@ -34,3 +34,12 @@ td, th{
   flex: 1 1 952px;
   overflow: scroll;
 }
+
+.first-col tr{
+  display: block;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.first-col tr:first-child{
+  margin-top: 0;
+}

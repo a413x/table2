@@ -1,7 +1,8 @@
+import {useEffect} from 'react'
 import './styles/App.css';
 import {default as json} from './__mock_data__/data.json'
 import {useState} from 'react'
-import {sortData} from './utils/utils.js'
+import {sortData, attachScroll} from './utils/utils.js'
 
 import {Table} from './components/Table.js'
 import {PagesNav} from './components/PagesNav.js'
@@ -20,6 +21,10 @@ function App() {
   const pageChangeCallback = (newPage) => {
     setPage(newPage)
   }
+
+  useEffect(() => {
+    attachScroll()
+  }, [])
 
   let from = (page-1)*rowsOnPage;
   const dataToShow = data.slice(from, from + rowsOnPage)
