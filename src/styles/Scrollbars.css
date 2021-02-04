@@ -1,10 +1,10 @@
-.table-container::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 5px;
   height: 5px;
 }
-.table-container::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
   background: #FAFAFA;
 }
-.table-container::-webkit-scrollbar-thumb{
+*::-webkit-scrollbar-thumb{
   background: #D5D5D5;
 }
