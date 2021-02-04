@@ -28,21 +28,24 @@ export function TableHead({data, sortCallback}) {
   }
 
   return (
-    <thead>
-      <tr className = 'table-head'>
-        {colNames.map((col, ind) =>
-          <th key = {'th-'+ind} onClick = {() => onClick(col)}>
-            {col.title}
-            {activeCol.name === col.name &&
-              <img src = {Arrow}
-                alt = 'arrow'
-                className = {activeCol.order === 'asc' ? 'sorted-asc' : ''}
-              />
-            }
-          </th>
-        )}
-      </tr>
-      <Total data = {data} />
-    </thead>
+    <div className = 'table-head'>
+      <table>
+        <thead>
+          <tr className = 'header'>
+            {colNames.map((col, ind) =>
+              <th key = {'th-'+ind} onClick = {() => onClick(col)}>
+                {col.title}
+                {activeCol.name === col.name &&
+                  <img src = {Arrow}
+                    alt = 'arrow'
+                    className = {activeCol.order === 'asc' ? 'sorted-asc' : ''}
+                  />}
+              </th>
+            )}
+          </tr>
+          <Total data = {data} />
+        </thead>
+      </table>
+    </div>
   );
 }

@@ -1,10 +1,15 @@
 .table-container{
+  display: flex;
+  flex-flow: column;
   margin: 0 15px;
   max-width: 1170px;
   max-height: 508px;
   overflow: scroll;
   border: 1px solid #D5D5D5;
   border-radius: 3px;
+}
+.table-body-container{
+  display: flex;
 }
 table{
   border-spacing: 0;

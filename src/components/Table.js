@@ -1,6 +1,7 @@
 import {useState} from 'react'
-import {TableHead} from './TableHead.js'
+import {TableHead, colNames} from './TableHead.js'
 import {TableBody} from './TableBody.js'
+import {Link} from './Link.js'
 import '../styles/Table.css';
 import '../styles/Scrollbars.css';
 
@@ -15,10 +16,23 @@ export function Table({ data, dataToShow, sortCallback }) {
 
   return (
     <div className = 'table-container'>
-      <table className = 'table'>
-        <TableHead data = {data} sortCallback = {sortCallback} />
-        <TableBody data = {dataToShow} onLinkClick = {onLinkClick} />
-      </table>
+      <TableHead data = {data} sortCallback = {sortCallback}/>
+
+      <div className = 'table-body-container'>
+        <div className = 'first-col'>
+          <table>
+            <tbody>
+              {dataToShow.map((dataObj, ind) =>
+                <tr key = {'first-col-' + ind}><td>
+                  <Link dataObj = {dataObj} onLinkClick = {onLinkClick} />
+                </td></tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+
+        <TableBody data = {dataToShow} colNames = {colNames.slice(1)}/>
+      </div>
     </div>
   );
 }
