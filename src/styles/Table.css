@@ -51,3 +51,7 @@ td, th{
 .body-details-container{
   position: relative;
 }
+
+.row-highlight td{
+  background: #C5DCFF;
+}

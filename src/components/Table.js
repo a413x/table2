@@ -20,6 +20,9 @@ export function Table({ data, dataToShow, sortCallback }) {
     setScroll()
     setShowDetails(false)
   }
+  const highlightRow = (dataObj) => {
+    return selectedData._id === dataObj._id && showDetails
+  }
 
   return (
     <div className = 'table-container'>
@@ -30,9 +33,14 @@ export function Table({ data, dataToShow, sortCallback }) {
           <table>
             <tbody>
               {dataToShow.map((dataObj, ind) =>
-                <tr key = {'first-col-' + ind}><td>
-                  <Link dataObj = {dataObj} onLinkClick = {onLinkClick} />
-                </td></tr>
+                <tr
+                  key = {'first-col-' + ind}
+                  className = {highlightRow(dataObj) ? 'row-highlight' : ''}
+                >
+                  <td>
+                    <Link dataObj = {dataObj} onLinkClick = {onLinkClick} />
+                  </td>
+                </tr>
               )}
             </tbody>
           </table>
