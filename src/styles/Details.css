@@ -19,26 +19,11 @@
   width: 50%;
   overflow: scroll;
 }
-
 .details p{
   line-height: 12px;
   font-size: 12px;
 }
-.details .deal-number{
+.details .highlight-text{
   color: #2F3D4A;
   font-size: 16px;
-}
-.deal-number img{
-  vertical-align: middle;
-  margin-left: 8px;
-}
-.details-left table{
-  border: 1px solid #D5D5D5;
-  border-bottom: none;
-  flex: 0 0 100%;
-}
-.details-left td:first-child{
-  min-width: 150px;
-  font-weight: bold;
-  border-right: 1px solid #D5D5D5;
 }

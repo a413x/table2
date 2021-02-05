@@ -1,6 +1,7 @@
 import LinkImg from '../../icons/link.svg'
 import {colNames} from '../TableHead.js'
 import {handleData} from '../TableBody.js'
+import '../../styles/DetailsLeft.css';
 
 export function DetailsLeft({ dataObj, onClose }) {
   const onCloseClick = (e) => {
@@ -10,7 +11,7 @@ export function DetailsLeft({ dataObj, onClose }) {
   return (
     <div className = 'details-left'>
       <p><a href = '/' onClick = {onCloseClick}>Скрыть детали</a></p>
-      <p className = 'deal-number'>
+      <p className = 'highlight-text'>
         Сделка №{dataObj.number}<img src = {LinkImg} alt = 'link' />
       </p>
       <p>Информация о сделке</p>
