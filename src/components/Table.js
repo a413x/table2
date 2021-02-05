@@ -1,17 +1,22 @@
 import {useState} from 'react'
 import {TableHead, colNames} from './TableHead.js'
 import {TableBody} from './TableBody.js'
+import {Details} from './Details/Details.js'
 import {Link} from './Link.js'
 import '../styles/Table.css';
 import '../styles/Scrollbars.css';
 
 export function Table({ data, dataToShow, sortCallback }) {
   const [selectedData, setSelectedData] = useState(data[0])
+  const [showDetails, setShowDetails] = useState(false)
 
   const onLinkClick = (id) => {
-    setSelectedData(
-      data.filter(dataObj => dataObj.id === id)
-    )
+    const selected = data.filter(dataObj => dataObj._id === id)[0]
+    setSelectedData(selected)
+    setShowDetails(true)
+  }
+  const onDetailsClose = () => {
+    setShowDetails(false)
   }
 
   return (
@@ -31,8 +36,19 @@ export function Table({ data, dataToShow, sortCallback }) {
           </table>
         </div>
 
-        <TableBody data = {dataToShow} colNames = {colNames.slice(1)}/>
+        <div className = 'body-details-container'>
+          <TableBody
+            data = {dataToShow}
+            colNames = {colNames.slice(1)}
+          />
+          <Details
+            dataObj = {selectedData}
+            show = {showDetails}
+            onClose = {onDetailsClose}
+          />
+        </div>
       </div>
+
     </div>
   );
 }

@@ -27,11 +27,11 @@ td, th{
 }
 .first-col{
   border-right: 1px solid #D5D5D5;
-  flex: 1 1 220px;
+  width: 220px;
   overflow: hidden;
 }
 .table-body{
-  flex: 1 1 952px;
+  width: 948px;
   overflow: scroll;
 }
 
@@ -42,4 +42,8 @@ td, th{
 }
 .first-col tr:first-child{
   margin-top: 0;
+}
+
+.body-details-container{
+  position: relative;
 }
