@@ -43,6 +43,10 @@ td, th{
 .first-col tr:first-child{
   margin-top: 0;
 }
+.first-col-scroll{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 
 .body-details-container{
   position: relative;

@@ -3,6 +3,7 @@ import {TableHead, colNames} from './TableHead.js'
 import {TableBody} from './TableBody.js'
 import {Details} from './Details/Details.js'
 import {Link} from './Link.js'
+import {setScroll} from '../utils/utils.js'
 import '../styles/Table.css';
 import '../styles/Scrollbars.css';
 
@@ -16,6 +17,7 @@ export function Table({ data, dataToShow, sortCallback }) {
     setShowDetails(true)
   }
   const onDetailsClose = () => {
+    setScroll()
     setShowDetails(false)
   }
 
@@ -24,7 +26,7 @@ export function Table({ data, dataToShow, sortCallback }) {
       <TableHead data = {data} sortCallback = {sortCallback}/>
 
       <div className = 'table-body-container'>
-        <div className = 'first-col'>
+        <div className = {(showDetails ? 'first-col-scroll ' : '') + 'first-col'}>
           <table>
             <tbody>
               {dataToShow.map((dataObj, ind) =>

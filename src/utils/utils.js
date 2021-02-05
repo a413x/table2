@@ -59,5 +59,11 @@ export function attachScroll(){
     const target = e.target
     firstColBody.scrollTop = target.scrollTop
     tableHead.scrollLeft = target.scrollLeft
-  });
+  })
+}
+
+export function setScroll(){
+  const firstColBody = document.querySelector('.first-col'),
+    tableBody = document.querySelector('.table-body')
+  tableBody.scrollTop = firstColBody.scrollTop
 }
