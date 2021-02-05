@@ -1,13 +1,11 @@
 import '../../styles/Details.css';
+import {DetailsLeft} from './DetailsLeft.js'
 
 export function Details({ dataObj, show, onClose }) {
-  const onCloseClick = (e) => {
-    e.preventDefault()
-    onClose()
-  }
   return (
     <div className = {(!show ? 'details-hidden ' : '') + 'details'}>
-      <a href = '/' onClick = {onCloseClick}>Скрыть детали</a>
+      <DetailsLeft dataObj = {dataObj} onClose = {onClose} />
+      <div className = 'details-right'></div>
     </div>
   );
 }
