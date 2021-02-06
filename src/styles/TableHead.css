@@ -22,6 +22,7 @@ thead img{
 }
 table th:first-child{
   border-right: 1px solid #D5D5D5;
+  position: -webkit-sticky;
   position: sticky;
   left: 0;
   z-index: 1;

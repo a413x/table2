@@ -27,11 +27,11 @@ td, th{
 }
 .first-col{
   border-right: 1px solid #D5D5D5;
-  width: 220px;
+  flex: 0 0 219px;
   overflow: hidden;
 }
 .table-body{
-  width: 948px;
+  flex: 0 0 948px;
   overflow: scroll;
 }
 
@@ -47,9 +47,13 @@ td, th{
   overflow-x: hidden;
   overflow-y: scroll;
 }
+.first-col-scroll tr{
+  margin: 0;
+}
 
 .body-details-container{
   position: relative;
+  overflow: hidden;
 }
 
 .row-highlight td{

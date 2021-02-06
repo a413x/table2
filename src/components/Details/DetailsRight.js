@@ -14,10 +14,10 @@ export function DetailsRight({ visits }) {
               <img src = {visitInfo.icon} alt = 'conpany-icon' />
               {visitInfo.source + '/' + visitInfo.medium}
             </p>
-            <p>Source/Medium: {visitInfo.source + '/' + visitInfo.medium}</p>
-            <p>Campaign: {visitInfo.campaign}</p>
-            <p>Content: {visitInfo.campaign}</p>
-            <p>Term: {visitInfo.term}</p>
+            <p><b>Source/Medium:</b> {visitInfo.source + '/' + visitInfo.medium}</p>
+            <p><b>Campaign:</b> {visitInfo.campaign}</p>
+            <p><b>Content:</b> {visitInfo.campaign}</p>
+            <p><b>Term:</b> {visitInfo.term}</p>
             <div className = 'date'>{visitInfo.date}</div>
             {visitInfo.count > 1 &&
               <div className = 'count'>{visitInfo.count}</div>
