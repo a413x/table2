@@ -1,11 +1,17 @@
 export function getColSum(data, colName){
   const values = []
   for(let i = 0; i < data.length; i++){
-    values.push(
-      parseInt(data[i][colName])
-    )
+    const value = parseInteger(data[i][colName])
+    values.push(value)
   }
   return values.reduce((accum, val) => accum + val)
+}
+
+function parseInteger(value){
+  if(!value || Number.isNaN(parseInt(value))){
+    return 0
+  }
+  return parseInt(value)
 }
 
 export function getColAverage(data, colName){
@@ -19,8 +25,8 @@ export function sortData(data, colName, order){
     let val1 = a[colName]
     let val2 = b[colName]
     if(colName === 'daysleft'){
-      val1 = parseInt(val1)
-      val2 = parseInt(val2)
+      val1 = parseInteger(val1)
+      val2 = parseInteger(val2)
     }
     return val1 > val2 ? sign : -sign
   })
@@ -41,7 +47,8 @@ export function convertDate(dateStr){
           + date.toLocaleTimeString('ru-RU')
 }
 
-export function formatDaysLeft(value){
+export function formatDaysLeft(daysleft){
+  const value = parseInteger(daysleft)
   const words = ['день', 'дня', 'дней']
   const word = words[
     (value % 100 > 4 && value % 100 < 20) ?
