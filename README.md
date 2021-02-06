@@ -1,5 +1,11 @@
 To run this project you need to have [NodeJS](https://nodejs.org/) installed
 
+## Installation
+
+In the project directory run:
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
