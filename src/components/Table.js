@@ -1,8 +1,8 @@
 import {useState} from 'react'
 import {TableHead, colNames} from './TableHead.js'
+import {FirstColumn} from './FirstColumn.js'
 import {TableBody} from './TableBody.js'
 import {Details} from './Details/Details.js'
-import {Link} from './Link.js'
 import {setScroll} from '../utils/utils.js'
 import '../styles/Table.css';
 import '../styles/Scrollbars.css';
@@ -20,32 +20,18 @@ export function Table({ data, dataToShow, sortCallback }) {
     setScroll()
     setShowDetails(false)
   }
-  const highlightRow = (dataObj) => {
-    return selectedData._id === dataObj._id && showDetails
-  }
 
   return (
     <div className = 'table-container'>
       <TableHead data = {data} sortCallback = {sortCallback}/>
 
       <div className = 'table-body-container'>
-        <div className = {(showDetails ? 'first-col-scroll ' : '') + 'first-col'}>
-          <table>
-            <tbody>
-              {dataToShow.map((dataObj, ind) =>
-                <tr
-                  key = {'first-col-' + ind}
-                  className = {highlightRow(dataObj) ? 'row-highlight' : ''}
-                >
-                  <td>
-                    <Link dataObj = {dataObj} onLinkClick = {onLinkClick} />
-                  </td>
-                </tr>
-              )}
-            </tbody>
-          </table>
-        </div>
-
+        <FirstColumn
+          dataToShow = {dataToShow}
+          onLinkClick = {onLinkClick}
+          showDetails = {showDetails}
+          selectedData = {selectedData}
+        />
         <div className = 'body-details-container'>
           <TableBody
             data = {dataToShow}
