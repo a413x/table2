@@ -1,0 +1,41 @@
+.panel-container{
+  position: relative;
+  flex: 0 0 170px;
+  margin-bottom: 20px;
+}
+.panel, .shadow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 15px;
+  background: white;
+  border: 1px solid #D5D5D5;
+  z-index: 1;
+}
+.shadow{
+  top: 3px;
+  left: 3px;
+  right: -3px;
+  bottom: -3px;
+  z-index: 0;
+}
+.panel .date{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.panel .count{
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  min-width: 15px;
+  height: 15px;
+  padding: 3px;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  background: #2F3D4A;
+  border-radius: 50%;
+}
