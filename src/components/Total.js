@@ -11,7 +11,7 @@ export function Total({data}) {
       value = getColAverage(data, col.name)
     }
     if(col.name === 'daysleft'){
-      return formatDaysLeft(value)
+      return formatDaysLeft(Math.round(value))
     }
     return value
   }

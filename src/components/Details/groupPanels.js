@@ -6,7 +6,7 @@ function formatPanelFields(visitInfo){
   for(let field in output){
     if(output[field] === '') {
       output[field] = '(not set)'
-    }else if(output[field] === 'date'){
+    }else if(field === 'date'){
       output[field] = convertDate(output[field])
     }
   }

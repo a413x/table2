@@ -1,497 +1,3431 @@
 [
   {
-    "_id": "60194d5328df0e6c6e62d347",
+    "_id": "601e85d1738663351435983d",
     "number": 1000,
-    "date": "2020-12-02 6:17:26",
-    "proceeds": 70924,
-    "profit": 12984,
-    "daysleft": 35,
-    "sessions": 12
+    "date": "2021-01-19 05:52:42",
+    "proceeds": 94211,
+    "profit": 6150,
+    "daysleft": 36,
+    "sessions": 12,
+    "visits": [
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-17 1:36:39"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-17 1:36:39"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-17 11:29:4"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-17 1:36:39"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-6 6:41:6"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-17 1:36:39"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-17 11:29:4"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-6 6:41:6"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-11 21:18:15"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 8:12:48"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 8:12:48"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-6 6:41:6"
+      }
+    ]
   },
   {
-    "_id": "60194d53ec9417a151b79715",
+    "_id": "601e85d10c8ce93dc2cc0ac2",
     "number": 1001,
-    "date": "2021-01-10 12:43:57",
-    "proceeds": 78298,
-    "profit": 3536,
-    "daysleft": 45,
-    "sessions": 29
+    "date": "2020-12-11 06:19:37",
+    "proceeds": 14337,
+    "profit": 13520,
+    "daysleft": 40,
+    "sessions": 7,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-6 5:39:19"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-28 9:20:0"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-7 15:52:26"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-4 23:12:39"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-4 23:12:39"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-28 9:20:0"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-7 15:52:26"
+      }
+    ]
   },
   {
-    "_id": "60194d53352515169796b9b7",
+    "_id": "601e85d14dcc62c583372041",
     "number": 1002,
-    "date": "2020-12-07 3:25:35",
-    "proceeds": 37773,
-    "profit": 8406,
-    "daysleft": 49,
-    "sessions": 227
-  },
-  {
-    "_id": "60194d53b8e103ca8eddcdc5",
-    "number": 1003,
-    "date": "2020-12-26 3:50:25",
-    "proceeds": 19447,
-    "profit": 5849,
-    "daysleft": 15,
-    "sessions": 263
-  },
-  {
-    "_id": "60194d53f5f2eefdaad4cefc",
-    "number": 1004,
-    "date": "2020-12-20 11:40:22",
-    "proceeds": 46984,
-    "profit": 6112,
-    "daysleft": 3,
-    "sessions": 281
-  },
-  {
-    "_id": "60194d53fd83b872ed546327",
-    "number": 1005,
-    "date": "2021-01-11 7:40:40",
-    "proceeds": 60526,
-    "profit": 51824,
-    "daysleft": 36,
-    "sessions": 263
-  },
-  {
-    "_id": "60194d5380561c9f4f54baa8",
-    "number": 1006,
-    "date": "2021-01-13 7:34:04",
-    "proceeds": 87905,
-    "profit": 54050,
-    "daysleft": 38,
-    "sessions": 1
-  },
-  {
-    "_id": "60194d53c5c65350f7ac2717",
-    "number": 1007,
-    "date": "2021-01-19 8:32:41",
-    "proceeds": 55109,
-    "profit": 23722,
-    "daysleft": 3,
-    "sessions": 250
-  },
-  {
-    "_id": "60194d5339ca6f253ebd7892",
-    "number": 1008,
-    "date": "2020-12-23 3:50:13",
-    "proceeds": 39367,
-    "profit": 32867,
-    "daysleft": 45,
-    "sessions": 204
-  },
-  {
-    "_id": "60194d53e8195d7d237bcd26",
-    "number": 1009,
-    "date": "2021-01-13 7:17:42",
-    "proceeds": 53001,
-    "profit": 10513,
-    "daysleft": 35,
-    "sessions": 59
-  },
-  {
-    "_id": "60194d53586be67d493536ce",
-    "number": 1010,
-    "date": "2021-01-07 5:41:47",
-    "proceeds": 33162,
-    "profit": 13985,
-    "daysleft": 1,
-    "sessions": 175
-  },
-  {
-    "_id": "60194d5324af90f2f51d71d1",
-    "number": 1011,
-    "date": "2021-01-02 9:58:24",
-    "proceeds": 74540,
-    "profit": 31249,
-    "daysleft": 10,
-    "sessions": 13
-  },
-  {
-    "_id": "60194d53e7e0bb2bd962a354",
-    "number": 1012,
-    "date": "2021-01-08 11:14:40",
-    "proceeds": 41066,
-    "profit": 14371,
-    "daysleft": 40,
-    "sessions": 173
-  },
-  {
-    "_id": "60194d53dfcd063a66374f76",
-    "number": 1013,
-    "date": "2020-12-06 1:47:15",
-    "proceeds": 8632,
-    "profit": 3613,
-    "daysleft": 39,
-    "sessions": 109
-  },
-  {
-    "_id": "60194d53a57ccc82f09935f3",
-    "number": 1014,
-    "date": "2021-01-23 11:05:46",
-    "proceeds": 93339,
-    "profit": 87032,
-    "daysleft": 41,
-    "sessions": 56
-  },
-  {
-    "_id": "60194d53acaab6df59ace9d4",
-    "number": 1015,
-    "date": "2021-01-04 1:16:28",
-    "proceeds": 3075,
-    "profit": 540,
-    "daysleft": 38,
-    "sessions": 19
-  },
-  {
-    "_id": "60194d53e85ccd16553259a3",
-    "number": 1016,
-    "date": "2020-12-04 9:19:03",
-    "proceeds": 58125,
-    "profit": 50512,
-    "daysleft": 41,
-    "sessions": 123
-  },
-  {
-    "_id": "60194d53f68b0ce43848e14c",
-    "number": 1017,
-    "date": "2021-01-08 8:15:06",
-    "proceeds": 3580,
-    "profit": 461,
-    "daysleft": 16,
-    "sessions": 176
-  },
-  {
-    "_id": "60194d5394c9b1edab136e55",
-    "number": 1018,
-    "date": "2020-12-06 1:31:58",
-    "proceeds": 21484,
-    "profit": 15206,
-    "daysleft": 48,
-    "sessions": 61
-  },
-  {
-    "_id": "60194d5370ad881f91f707d9",
-    "number": 1019,
-    "date": "2020-12-15 12:09:02",
-    "proceeds": 46984,
-    "profit": 32690,
-    "daysleft": 41,
-    "sessions": 90
-  },
-  {
-    "_id": "60194d53e6a118dfbd2d23e6",
-    "number": 1020,
-    "date": "2021-01-24 4:29:38",
-    "proceeds": 79289,
-    "profit": 68945,
-    "daysleft": 23,
-    "sessions": 52
-  },
-  {
-    "_id": "60194d53d3f32ff53a9f7863",
-    "number": 1021,
-    "date": "2021-02-01 9:51:22",
-    "proceeds": 92284,
-    "profit": 35261,
-    "daysleft": 5,
-    "sessions": 294
-  },
-  {
-    "_id": "60194d53d1fa9e29e75208a2",
-    "number": 1022,
-    "date": "2021-01-23 11:29:36",
-    "proceeds": 58642,
-    "profit": 36853,
-    "daysleft": 27,
-    "sessions": 50
-  },
-  {
-    "_id": "60194d532bbe746b9f732e9e",
-    "number": 1023,
-    "date": "2021-01-30 5:47:14",
-    "proceeds": 19118,
-    "profit": 2125,
-    "daysleft": 40,
-    "sessions": 3
-  },
-  {
-    "_id": "60194d53e0d859024b536a03",
-    "number": 1024,
-    "date": "2020-12-27 9:05:58",
-    "proceeds": 92642,
-    "profit": 19788,
-    "daysleft": 15,
-    "sessions": 130
-  },
-  {
-    "_id": "60194d539eb6fdf6559e3947",
-    "number": 1025,
-    "date": "2021-01-03 9:50:27",
-    "proceeds": 16616,
-    "profit": 11115,
+    "date": "2021-01-12 02:17:18",
+    "proceeds": 38669,
+    "profit": 20125,
     "daysleft": 46,
-    "sessions": 236
+    "sessions": 4,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-4 19:46:30"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-6 17:9:0"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-9 1:35:40"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-9 1:35:40"
+      }
+    ]
   },
   {
-    "_id": "60194d53623fc5048e4e0452",
-    "number": 1026,
-    "date": "2021-01-03 12:23:13",
-    "proceeds": 28568,
-    "profit": 23101,
-    "daysleft": 40,
-    "sessions": 50
-  },
-  {
-    "_id": "60194d5381d5ea15908487c7",
-    "number": 1027,
-    "date": "2020-12-26 5:24:26",
-    "proceeds": 25843,
-    "profit": 14814,
-    "daysleft": 0,
-    "sessions": 36
-  },
-  {
-    "_id": "60194d53f2461dfc6cc00b56",
-    "number": 1028,
-    "date": "2020-12-21 10:27:44",
-    "proceeds": 19503,
-    "profit": 18231,
-    "daysleft": 42,
-    "sessions": 300
-  },
-  {
-    "_id": "60194d53075f53c8e9487969",
-    "number": 1029,
-    "date": "2021-01-27 6:49:05",
-    "proceeds": 90085,
-    "profit": 38623,
-    "daysleft": 27,
-    "sessions": 6
-  },
-  {
-    "_id": "60194d533cb44b525f2120f3",
-    "number": 1030,
-    "date": "2021-01-15 6:47:10",
-    "proceeds": 90295,
-    "profit": 45370,
-    "daysleft": 22,
-    "sessions": 61
-  },
-  {
-    "_id": "60194d53ddffbc1699c49974",
-    "number": 1031,
-    "date": "2021-01-09 3:22:31",
-    "proceeds": 55806,
-    "profit": 34809,
-    "daysleft": 42,
-    "sessions": 107
-  },
-  {
-    "_id": "60194d53fc8e046a2b26a5ea",
-    "number": 1032,
-    "date": "2020-12-18 11:12:39",
-    "proceeds": 78005,
-    "profit": 20984,
-    "daysleft": 36,
-    "sessions": 94
-  },
-  {
-    "_id": "60194d530d11ec97fb6c782f",
-    "number": 1033,
-    "date": "2020-12-28 8:33:38",
-    "proceeds": 27069,
-    "profit": 84,
-    "daysleft": 31,
-    "sessions": 259
-  },
-  {
-    "_id": "60194d5315b1a8dcb6dcc5c6",
-    "number": 1034,
-    "date": "2021-01-27 2:57:22",
-    "proceeds": 83236,
-    "profit": 72164,
-    "daysleft": 27,
-    "sessions": 34
-  },
-  {
-    "_id": "60194d53a2a986c744e298a1",
-    "number": 1035,
-    "date": "2020-12-25 10:27:23",
-    "proceeds": 11149,
-    "profit": 7910,
-    "daysleft": 9,
-    "sessions": 229
-  },
-  {
-    "_id": "60194d537b49599d572f1eb6",
-    "number": 1036,
-    "date": "2021-01-24 11:05:19",
-    "proceeds": 48646,
-    "profit": 6744,
-    "daysleft": 12,
-    "sessions": 151
-  },
-  {
-    "_id": "60194d535cb48eaf2c3c55c6",
-    "number": 1037,
-    "date": "2021-01-10 1:34:26",
-    "proceeds": 18711,
-    "profit": 5526,
-    "daysleft": 13,
-    "sessions": 12
-  },
-  {
-    "_id": "60194d53cc5988fe3cff93a6",
-    "number": 1038,
-    "date": "2021-01-08 2:16:51",
-    "proceeds": 51106,
-    "profit": 40742,
-    "daysleft": 38,
-    "sessions": 214
-  },
-  {
-    "_id": "60194d5345c44573d7345059",
-    "number": 1039,
-    "date": "2021-01-16 4:23:04",
-    "proceeds": 21421,
-    "profit": 1895,
-    "daysleft": 24,
-    "sessions": 157
-  },
-  {
-    "_id": "60194d53366e1ba6cf003411",
-    "number": 1040,
-    "date": "2020-12-21 1:40:40",
-    "proceeds": 60103,
-    "profit": 32650,
-    "daysleft": 33,
-    "sessions": 273
-  },
-  {
-    "_id": "60194d53328370630b613e64",
-    "number": 1041,
-    "date": "2020-12-11 8:16:41",
-    "proceeds": 29579,
-    "profit": 16674,
-    "daysleft": 24,
-    "sessions": 65
-  },
-  {
-    "_id": "60194d53f9ffc5e8fa94abb1",
-    "number": 1042,
-    "date": "2021-01-26 1:17:41",
-    "proceeds": 11383,
-    "profit": 10436,
-    "daysleft": 15,
-    "sessions": 95
-  },
-  {
-    "_id": "60194d53a336938e428b3c4d",
-    "number": 1043,
-    "date": "2021-01-28 12:04:39",
-    "proceeds": 77500,
-    "profit": 4539,
-    "daysleft": 13,
-    "sessions": 131
-  },
-  {
-    "_id": "60194d53e003a339a533ea66",
-    "number": 1044,
-    "date": "2020-12-13 9:23:12",
-    "proceeds": 88143,
-    "profit": 52365,
-    "daysleft": 25,
-    "sessions": 126
-  },
-  {
-    "_id": "60194d533c1608dbedd7a950",
-    "number": 1045,
-    "date": "2021-02-01 8:32:38",
-    "proceeds": 61114,
-    "profit": 7759,
-    "daysleft": 19,
-    "sessions": 266
-  },
-  {
-    "_id": "60194d5320a0f66b4a2e0d34",
-    "number": 1046,
-    "date": "2021-01-14 6:12:24",
-    "proceeds": 92976,
-    "profit": 27744,
+    "_id": "601e85d1b361e5b79a7a49a7",
+    "number": 1003,
+    "date": "2020-12-04 04:00:29",
+    "proceeds": 16208,
+    "profit": 7768,
     "daysleft": 35,
-    "sessions": 157
+    "sessions": 5,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 4:0:52"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-25 17:57:9"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 4:0:52"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-26 11:36:4"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-1 19:17:41"
+      }
+    ]
   },
   {
-    "_id": "60194d5321c60b5f07ba351b",
-    "number": 1047,
-    "date": "2020-12-25 7:09:00",
-    "proceeds": 52304,
-    "profit": 43006,
-    "daysleft": 3,
-    "sessions": 197
+    "_id": "601e85d1ff8a084dc40b85c5",
+    "number": 1004,
+    "date": "2020-12-12 07:24:56",
+    "proceeds": 8356,
+    "profit": 8239,
+    "daysleft": 47,
+    "sessions": 11,
+    "visits": [
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-7 11:49:8"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 4:30:12"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-7 11:49:8"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-7 11:49:8"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-29 10:55:10"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-3 3:16:50"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-10 20:54:5"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 4:30:12"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-29 10:55:10"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 4:30:12"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-10 20:54:5"
+      }
+    ]
   },
   {
-    "_id": "60194d5333f936c3d9377ef9",
-    "number": 1048,
-    "date": "2021-01-12 6:32:48",
-    "proceeds": 75369,
-    "profit": 56025,
-    "daysleft": 26,
-    "sessions": 128
+    "_id": "601e85d1d8d0faf8d5b9e5d0",
+    "number": 1005,
+    "date": "2020-12-15 02:18:12",
+    "proceeds": 73813,
+    "profit": 5500,
+    "daysleft": 21,
+    "sessions": 3,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 13:55:46"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-12 21:30:1"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-7 19:2:20"
+      }
+    ]
   },
   {
-    "_id": "60194d53f713deb9a83bdb3a",
-    "number": 1049,
-    "date": "2020-12-09 12:45:20",
-    "proceeds": 39622,
-    "profit": 18426,
-    "daysleft": 24,
-    "sessions": 0
-  },
-  {
-    "_id": "60194d532b2bff95abd16a68",
-    "number": 1050,
-    "date": "2020-12-22 9:51:36",
-    "proceeds": 40631,
-    "profit": 18534,
-    "daysleft": 39,
-    "sessions": 7
-  },
-  {
-    "_id": "60194d53bd7a89418544bc3d",
-    "number": 1051,
-    "date": "2021-01-04 1:44:08",
-    "proceeds": 44159,
-    "profit": 42205,
-    "daysleft": 29,
-    "sessions": 196
-  },
-  {
-    "_id": "60194d53955b1281b1785b83",
-    "number": 1052,
-    "date": "2020-12-12 6:20:23",
-    "proceeds": 10264,
-    "profit": 7198,
-    "daysleft": 0,
-    "sessions": 54
-  },
-  {
-    "_id": "60194d5379723e66c6e7cdea",
-    "number": 1053,
-    "date": "2021-01-21 9:41:42",
-    "proceeds": 86446,
-    "profit": 55533,
-    "daysleft": 29,
-    "sessions": 12
-  },
-  {
-    "_id": "60194d537fd050e72e5f4e43",
-    "number": 1054,
-    "date": "2020-12-15 9:07:49",
-    "proceeds": 68477,
-    "profit": 23154,
+    "_id": "601e85d16aebd9fa573f8fc8",
+    "number": 1006,
+    "date": "2020-12-14 06:52:30",
+    "proceeds": 82717,
+    "profit": 37388,
     "daysleft": 27,
-    "sessions": 58
+    "sessions": 5,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-9 14:4:26"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-11 9:47:45"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 1:49:53"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 23:11:27"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 1:49:53"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1b2ddaef3952d6f3e",
+    "number": 1007,
+    "date": "2021-01-24 04:38:52",
+    "proceeds": 85049,
+    "profit": 72078,
+    "daysleft": 33,
+    "sessions": 1,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-21 5:56:36"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1d0db0ee889dd75a5",
+    "number": 1008,
+    "date": "2021-01-17 02:32:30",
+    "proceeds": 33102,
+    "profit": 12685,
+    "daysleft": 45,
+    "sessions": 11,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-13 9:9:43"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 0:27:46"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 0:27:46"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 3:2:26"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 0:27:46"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-4 21:47:7"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-4 21:47:7"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-4 21:47:7"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 0:27:46"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-9 7:10:41"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 3:2:26"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d117cc5fac428d2e0c",
+    "number": 1009,
+    "date": "2020-12-23 03:20:50",
+    "proceeds": 35184,
+    "profit": 24778,
+    "daysleft": 35,
+    "sessions": 11,
+    "visits": [
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-17 22:49:27"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-10 18:26:44"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-17 22:49:27"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-22 3:56:47"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-10 21:34:51"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-12 15:33:32"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-22 3:56:47"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-10 21:34:51"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-12 15:33:32"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-12 15:33:32"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-10 21:34:51"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d15fd469d8b76a3dfb",
+    "number": 1010,
+    "date": "2020-12-20 04:42:59",
+    "proceeds": 82750,
+    "profit": 52286,
+    "daysleft": 20,
+    "sessions": 12,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 19:5:10"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-14 10:36:38"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-19 5:40:27"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-9 6:32:25"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-19 5:40:27"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 19:5:10"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 19:5:10"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-17 4:53:32"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-17 4:53:32"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-14 10:36:38"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-19 5:40:27"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-9 6:32:25"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1c90d7d269225326c",
+    "number": 1011,
+    "date": "2020-12-20 06:26:41",
+    "proceeds": 28622,
+    "profit": 19891,
+    "daysleft": 3,
+    "sessions": 8,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-11 9:46:31"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-11 9:46:31"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 19:0:54"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-14 23:30:29"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 19:0:54"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-14 23:30:29"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-11 9:46:31"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-14 23:30:29"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d189dce9cc73a177f4",
+    "number": 1012,
+    "date": "2021-01-14 06:17:42",
+    "proceeds": 12301,
+    "profit": 5211,
+    "daysleft": 15,
+    "sessions": 1,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-6 14:9:35"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1a60cc43a8bc790e6",
+    "number": 1013,
+    "date": "2021-01-03 01:33:13",
+    "proceeds": 76628,
+    "profit": 24342,
+    "daysleft": 35,
+    "sessions": 12,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-23 9:35:23"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-23 13:31:40"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-23 13:31:40"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-1 3:53:59"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-1 3:53:59"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-1 3:53:59"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-24 9:23:38"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-1 3:53:59"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-28 4:29:23"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-28 4:29:23"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-23 13:31:40"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-23 13:31:40"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1fb0a2877f636a383",
+    "number": 1014,
+    "date": "2020-12-07 12:19:04",
+    "proceeds": 57875,
+    "profit": 8800,
+    "daysleft": 35,
+    "sessions": 5,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-27 18:29:42"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-5 14:19:54"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-27 18:29:42"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-27 18:29:42"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-27 21:33:3"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1ac8524dc350f0544",
+    "number": 1015,
+    "date": "2021-01-25 08:20:49",
+    "proceeds": 17122,
+    "profit": 7762,
+    "daysleft": 32,
+    "sessions": 5,
+    "visits": [
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-24 15:30:55"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-24 15:30:55"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-14 22:57:0"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-14 22:57:0"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-24 15:30:55"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1de676d30729ebc11",
+    "number": 1016,
+    "date": "2020-12-28 04:33:16",
+    "proceeds": 40444,
+    "profit": 24678,
+    "daysleft": 23,
+    "sessions": 7,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-19 16:0:22"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-21 6:14:30"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-25 7:17:32"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-25 7:17:32"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-19 14:10:52"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-25 7:17:32"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-17 11:3:21"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1fa0f7f402a3210bd",
+    "number": 1017,
+    "date": "2021-01-03 01:36:37",
+    "proceeds": 59047,
+    "profit": 55631,
+    "daysleft": 46,
+    "sessions": 5,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-29 3:24:28"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-24 6:35:25"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-22 0:58:9"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-28 7:32:36"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-28 7:32:36"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d109e4833be865a8d9",
+    "number": 1018,
+    "date": "2021-02-01 04:17:46",
+    "proceeds": 37627,
+    "profit": 1619,
+    "daysleft": 48,
+    "sessions": 3,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-23 17:25:11"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-23 17:25:11"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-23 17:25:11"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d18968f15006ed96ab",
+    "number": 1019,
+    "date": "2021-01-19 09:03:56",
+    "proceeds": 88305,
+    "profit": 76114,
+    "daysleft": 29,
+    "sessions": 11,
+    "visits": [
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 3:0:32"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-14 19:47:10"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-9 15:27:23"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-13 23:28:28"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 3:0:32"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-14 19:47:10"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 3:0:32"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-9 15:27:23"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-9 15:27:23"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 3:0:32"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 3:0:32"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1a112bfa782c31666",
+    "number": 1020,
+    "date": "2021-01-22 05:16:21",
+    "proceeds": 56293,
+    "profit": 21858,
+    "daysleft": 3,
+    "sessions": 2,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-21 4:37:27"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-20 22:42:44"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1b5764391ca85f436",
+    "number": 1021,
+    "date": "2020-12-16 09:07:07",
+    "proceeds": 30415,
+    "profit": 15999,
+    "daysleft": 6,
+    "sessions": 11,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 19:48:24"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 19:48:24"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 23:42:36"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 12:54:28"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-11 13:39:21"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 12:54:28"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 12:54:28"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 19:48:24"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-4 16:8:15"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-8 12:54:28"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 19:48:24"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1fa09d92ce33815d6",
+    "number": 1022,
+    "date": "2021-01-03 12:59:14",
+    "proceeds": 59900,
+    "profit": 23279,
+    "daysleft": 0,
+    "sessions": 4,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-26 13:22:2"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-26 13:22:2"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-1 21:27:40"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-22 13:45:31"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d17949b4e3d319aebb",
+    "number": 1023,
+    "date": "2020-12-07 03:21:33",
+    "proceeds": 6462,
+    "profit": 5537,
+    "daysleft": 12,
+    "sessions": 5,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-29 16:42:19"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-3 5:41:55"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-25 14:43:50"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-3 5:41:55"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-26 20:55:20"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1eae3e97b36397bc1",
+    "number": 1024,
+    "date": "2020-12-07 08:07:40",
+    "proceeds": 46990,
+    "profit": 12541,
+    "daysleft": 0,
+    "sessions": 8,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 22:29:59"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-29 15:13:53"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-29 15:13:53"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-3 10:51:15"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-29 15:13:53"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 22:29:59"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-27 22:55:6"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 22:29:59"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d111d7c1ceaf22c391",
+    "number": 1025,
+    "date": "2020-12-04 06:23:26",
+    "proceeds": 90045,
+    "profit": 77127,
+    "daysleft": 38,
+    "sessions": 5,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-21 11:20:30"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-21 11:20:30"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-25 4:2:14"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-22 17:40:2"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-21 11:20:30"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d13623a17efd1f5151",
+    "number": 1026,
+    "date": "2021-01-19 10:37:25",
+    "proceeds": 88595,
+    "profit": 45298,
+    "daysleft": 34,
+    "sessions": 1,
+    "visits": [
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-14 13:50:3"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d11ab2d0a28ff878e5",
+    "number": 1027,
+    "date": "2020-12-01 10:29:56",
+    "proceeds": 65146,
+    "profit": 34771,
+    "daysleft": 34,
+    "sessions": 12,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-22 8:37:36"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-25 16:29:45"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-27 15:16:40"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-22 8:37:36"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-27 15:16:40"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-25 16:29:45"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-24 7:28:29"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-27 15:16:40"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-27 15:16:40"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-19 23:6:59"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-22 8:37:36"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-22 8:37:36"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d19cf3a2c0f46c0f42",
+    "number": 1028,
+    "date": "2021-01-16 04:23:06",
+    "proceeds": 15584,
+    "profit": 12722,
+    "daysleft": 3,
+    "sessions": 10,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-5 1:14:53"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 21:49:38"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-5 1:14:53"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 20:51:31"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 20:51:31"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 20:51:31"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 21:49:38"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-8 8:10:30"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-12 21:49:38"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 20:51:31"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d106418fd57a1ec9e8",
+    "number": 1029,
+    "date": "2020-12-22 07:17:14",
+    "proceeds": 68375,
+    "profit": 62181,
+    "daysleft": 28,
+    "sessions": 1,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-14 0:15:30"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d18b408d3e18ae5fd8",
+    "number": 1030,
+    "date": "2020-12-16 05:57:27",
+    "proceeds": 17854,
+    "profit": 406,
+    "daysleft": 22,
+    "sessions": 5,
+    "visits": [
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-15 15:44:43"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-7 9:17:24"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-12 20:38:36"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-12 20:38:36"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-15 15:44:43"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d11fadaced95cfad19",
+    "number": 1031,
+    "date": "2020-12-27 12:52:48",
+    "proceeds": 6413,
+    "profit": 3774,
+    "daysleft": 48,
+    "sessions": 2,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-24 11:53:5"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-16 21:20:29"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d193be6d29687e4d09",
+    "number": 1032,
+    "date": "2021-01-07 01:55:55",
+    "proceeds": 27432,
+    "profit": 21986,
+    "daysleft": 26,
+    "sessions": 7,
+    "visits": [
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-31 16:57:19"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-26 21:50:22"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-26 8:42:21"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-31 19:21:23"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-31 19:21:23"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-26 21:50:22"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-1 23:57:2"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1cb10d2609ec8ad3b",
+    "number": 1033,
+    "date": "2020-12-23 01:57:33",
+    "proceeds": 78071,
+    "profit": 51858,
+    "daysleft": 0,
+    "sessions": 7,
+    "visits": [
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 19:2:26"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 0:3:5"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-22 23:39:51"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 0:3:5"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 0:3:5"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-16 2:55:17"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-10 22:47:7"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1dbb2d56de5426c80",
+    "number": 1034,
+    "date": "2020-12-20 04:28:54",
+    "proceeds": 52144,
+    "profit": 30161,
+    "daysleft": 7,
+    "sessions": 11,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-16 18:57:58"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 18:51:28"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 18:51:28"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 18:51:28"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-10 16:33:40"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-15 7:59:40"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-10 16:33:40"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-9 9:6:42"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-9 9:6:42"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 18:51:28"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-15 7:59:40"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1b871d1f057756d10",
+    "number": 1035,
+    "date": "2020-12-06 10:43:15",
+    "proceeds": 26446,
+    "profit": 20522,
+    "daysleft": 14,
+    "sessions": 12,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-28 21:43:59"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-24 15:7:55"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-4 2:6:0"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-24 18:32:14"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-28 21:43:59"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-5 14:17:46"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-28 21:43:59"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-5 14:17:46"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-5 14:17:46"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-24 15:7:55"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-28 21:43:59"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-24 15:7:55"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1a79be6ce33a88fc8",
+    "number": 1036,
+    "date": "2021-01-03 08:06:36",
+    "proceeds": 90341,
+    "profit": 84644,
+    "daysleft": 25,
+    "sessions": 5,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-30 13:53:51"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-25 0:34:35"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-26 19:58:13"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-26 20:16:25"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-30 13:53:51"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d14d44441c25f20091",
+    "number": 1037,
+    "date": "2020-12-26 10:52:35",
+    "proceeds": 63213,
+    "profit": 9497,
+    "daysleft": 9,
+    "sessions": 9,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-18 14:27:46"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-23 10:9:53"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-14 23:38:10"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-14 9:31:58"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-14 9:31:58"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-22 11:15:26"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-14 23:38:10"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-23 10:9:53"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-23 10:9:53"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1612f3b71432e9bac",
+    "number": 1038,
+    "date": "2020-12-06 06:36:42",
+    "proceeds": 54147,
+    "profit": 32644,
+    "daysleft": 25,
+    "sessions": 2,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-25 21:2:1"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-25 21:2:1"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1d677b979d04d7d76",
+    "number": 1039,
+    "date": "2020-12-13 03:38:24",
+    "proceeds": 74156,
+    "profit": 32614,
+    "daysleft": 26,
+    "sessions": 3,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-10 12:49:33"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-4 10:8:49"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-6 19:19:2"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1bef94c8522c2f2bd",
+    "number": 1040,
+    "date": "2020-12-15 01:32:35",
+    "proceeds": 4934,
+    "profit": 2528,
+    "daysleft": 21,
+    "sessions": 5,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-9 18:38:27"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-4 9:17:54"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-12 22:11:31"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-4 10:48:53"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-9 18:38:27"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1e527a7a28d0efe4f",
+    "number": 1041,
+    "date": "2020-12-27 04:51:28",
+    "proceeds": 47157,
+    "profit": 36735,
+    "daysleft": 35,
+    "sessions": 3,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-26 1:27:4"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-18 12:47:29"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-25 17:33:36"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1bfdd76b07021b499",
+    "number": 1042,
+    "date": "2021-01-16 03:10:20",
+    "proceeds": 74601,
+    "profit": 37326,
+    "daysleft": 0,
+    "sessions": 11,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-6 0:36:22"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-6 9:30:0"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-6 0:36:22"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-14 9:23:45"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 20:31:15"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-6 0:36:22"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-8 22:54:54"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 20:31:15"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-6 0:36:22"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-14 9:23:45"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-6 0:36:22"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1ccd496074c5ea21c",
+    "number": 1043,
+    "date": "2021-01-31 04:51:14",
+    "proceeds": 48086,
+    "profit": 6075,
+    "daysleft": 11,
+    "sessions": 3,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-25 14:9:29"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-28 23:50:18"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-25 14:9:29"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1b0a47790c42e393e",
+    "number": 1044,
+    "date": "2020-12-19 12:02:50",
+    "proceeds": 37052,
+    "profit": 5180,
+    "daysleft": 5,
+    "sessions": 3,
+    "visits": [
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-13 9:29:47"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-7 20:28:10"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-7 20:28:10"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1c97040831ccdc882",
+    "number": 1045,
+    "date": "2021-01-30 05:21:44",
+    "proceeds": 4138,
+    "profit": 3031,
+    "daysleft": 24,
+    "sessions": 2,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-21 16:14:2"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-27 6:1:33"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d17fe06c8b03aab735",
+    "number": 1046,
+    "date": "2021-02-05 07:09:39",
+    "proceeds": 21319,
+    "profit": 3780,
+    "daysleft": 9,
+    "sessions": 2,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-25 16:15:26"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-25 19:23:39"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1b730d64c92a0f34e",
+    "number": 1047,
+    "date": "2020-12-24 06:03:31",
+    "proceeds": 97445,
+    "profit": 65350,
+    "daysleft": 44,
+    "sessions": 8,
+    "visits": [
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-16 2:46:5"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-24 0:47:13"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-12 22:53:22"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-12 22:53:22"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-16 4:50:37"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-18 21:26:38"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-16 4:50:37"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-12 22:53:22"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d15843b58fc7dfa0dc",
+    "number": 1048,
+    "date": "2021-01-26 05:09:57",
+    "proceeds": 91448,
+    "profit": 19510,
+    "daysleft": 29,
+    "sessions": 11,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-13 22:18:27"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-13 22:18:27"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-25 16:2:51"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-16 14:11:36"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-13 22:18:27"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-14 18:44:14"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-25 16:2:51"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-25 16:2:51"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-13 22:18:27"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-25 16:2:51"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-13 22:18:27"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1166465480997c513",
+    "number": 1049,
+    "date": "2021-01-16 02:25:55",
+    "proceeds": 7307,
+    "profit": 5341,
+    "daysleft": 42,
+    "sessions": 10,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-3 21:52:50"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-10 1:22:20"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-3 21:52:50"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-3 21:52:50"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-10 1:22:20"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-14 4:30:24"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-13 21:21:58"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-4 17:15:38"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-3 21:52:50"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-10 1:22:20"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d160939278c900ede3",
+    "number": 1050,
+    "date": "2021-01-12 02:55:48",
+    "proceeds": 7916,
+    "profit": 6516,
+    "daysleft": 19,
+    "sessions": 3,
+    "visits": [
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-1 4:2:18"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-4 4:33:56"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-1 4:2:18"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d16091aeac48db9225",
+    "number": 1051,
+    "date": "2021-01-19 09:06:01",
+    "proceeds": 84853,
+    "profit": 38793,
+    "daysleft": 37,
+    "sessions": 6,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 9:15:24"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-8 6:48:28"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 17:50:6"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 9:15:24"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-7 9:15:24"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-13 13:10:37"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1050ba6505c9fc291",
+    "number": 1052,
+    "date": "2021-01-17 05:17:54",
+    "proceeds": 50805,
+    "profit": 863,
+    "daysleft": 46,
+    "sessions": 4,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-9 0:56:53"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-8 15:44:21"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-8 0:31:50"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2021-1-10 8:50:56"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d1d838ec08df097e67",
+    "number": 1053,
+    "date": "2021-01-01 01:21:52",
+    "proceeds": 65336,
+    "profit": 45249,
+    "daysleft": 16,
+    "sessions": 10,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-28 18:26:48"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-30 14:38:13"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-28 18:26:48"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-31 7:29:59"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-30 14:38:13"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-25 23:23:5"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-26 23:9:40"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-26 23:9:40"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-25 23:23:5"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-31 7:29:59"
+      }
+    ]
+  },
+  {
+    "_id": "601e85d12ad05c1e64a0e2d8",
+    "number": 1054,
+    "date": "2020-12-07 06:49:11",
+    "proceeds": 84421,
+    "profit": 145,
+    "daysleft": 39,
+    "sessions": 11,
+    "visits": [
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-30 19:12:34"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 1:47:33"
+      },
+      {
+        "source": "google",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-24 23:23:27"
+      },
+      {
+        "source": "example.com",
+        "medium": "referral",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-25 20:20:12"
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 1:47:33"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 20:45:8"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-30 19:12:34"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-30 19:12:34"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 20:45:8"
+      },
+      {
+        "source": "yandex",
+        "medium": "display",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-11-30 19:12:34"
+      },
+      {
+        "source": "yandex",
+        "medium": "organic",
+        "campaign": "",
+        "content": "",
+        "term": "",
+        "date": "2020-12-2 20:45:8"
+      }
+    ]
   }
 ]
