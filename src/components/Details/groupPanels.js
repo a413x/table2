@@ -1,4 +1,5 @@
 import {sortData, convertDate} from '../../utils/utils.js'
+import {setIcons} from './setIcons.js'
 
 function formatPanelFields(visitInfo){
   const output = {...visitInfo}
@@ -9,6 +10,7 @@ function formatPanelFields(visitInfo){
       output[field] = convertDate(output[field])
     }
   }
+  output.icon = setIcons(visitInfo)
   return output
 }
 

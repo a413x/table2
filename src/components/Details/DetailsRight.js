@@ -11,6 +11,7 @@ export function DetailsRight({ visits }) {
         <div  key = {'panel-' + ind} className = 'panel-container'>
           <div className = 'panel' >
             <p className = 'highlight-text'>
+              <img src = {visitInfo.icon} alt = 'conpany-icon' />
               {visitInfo.source + '/' + visitInfo.medium}
             </p>
             <p>Source/Medium: {visitInfo.source + '/' + visitInfo.medium}</p>
